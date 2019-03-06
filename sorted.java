@@ -3,27 +3,32 @@ class Simple{
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
-int ar[]=new int[n];
+int a[]=new int[n];
+  int i,j,temp;
 for(i=0;i<n;i++){
-ar[i]=sc.nextInt();
+a[i]=sc.nextInt();
 }
-for(i=0;i<n;i++)
+for(i=0;i<n-1;i++)
 {
-  for(j=0;j<n;j++){
-    if(a[i+1]<a[i])
+  int flag=0;
+  for(j=0;j<n-1-i;j++){
+    if(a[j+1]<a[j])
     {
-      temp=a[i];
-      a[i]=a[i+1];
-      a[i+i]=temp;}
+      temp=a[j];
+      a[j]=a[j+1];
+      a[j+1]=temp;
+      flag=1;
   }
-  else{
+  }
+
+  if(flag==0)
+  {
     break;
   }
 }
-}
   for(i=0;i<n;i++)
   {
-    System.out.println(ar[i]);
+    System.out.print(a[i]+" ");
   }
 }
 }
