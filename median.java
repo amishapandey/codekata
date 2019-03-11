@@ -1,7 +1,7 @@
 import java.util.*;
 class Simple{
 public static void main(String args[]){
-Scanner sc=new scanner(System.in):
+Scanner sc=new Scanner(System.in);
 int n=sc.nextInt();
 int i,j,t;
 int a[]=new int[n];
@@ -19,7 +19,7 @@ if(a[j]>a[j+1])
 t=a[j];
 a[j]=a[j+1];
 a[j+1]=t;
-flag==1;
+flag=1;
 }
 }
 if(flag==0)
@@ -29,10 +29,15 @@ break;
 }
 if(a.length()%2!=0){
 int l=a.lenght();
-int med=l/2+1;
-System.out.println(med);
+int med=(l/2)+1;
+System.out.println(a[med]);
 }
 else
 {
 int l=a.lenght();
+int med=(a[l]+a[l+1])/2;
+System.out.println(med);
+}
+}
+}
 
