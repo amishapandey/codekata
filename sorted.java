@@ -18,7 +18,7 @@ for(i=0;i<n-1;i++)
       a[j]=a[j+1];
       a[j+1]=temp;
       flag=1;
-  }
+   }
   }
 
   if(flag==0)
