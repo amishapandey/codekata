@@ -6,10 +6,9 @@ public class Main
 	    Scanner sc=new Scanner(System.in);
 	    int n=sc.nextInt();
 	    int m=sc.nextInt();
-	    int s;
-	    
-		System.out.println(n+m);
-	    
-	
+	   System.out.println(n+m);
 	}
 }
+	    
+	
+	
