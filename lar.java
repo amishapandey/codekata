@@ -12,7 +12,7 @@ public class Main
 	    Arrays.sort(arr);
 	    int l=arr.length;
 	    System.out.print(l);
-	    for(i=l;i>=0;i--)
+	    for(i=l-1;i>=0;i--)
 	    {
 		System.out.print(arr[i]);
 	    }
