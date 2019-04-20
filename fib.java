@@ -12,6 +12,6 @@ public class Main
 	      c=a+b;
 	      System.out.print(a);
 	      System.out.print(' ');
-	  } System.out.print(n);
+	  } 
 }
 }
