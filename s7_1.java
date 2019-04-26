@@ -8,7 +8,7 @@ public class Main
 	    char ch[]=s.toCharArray();
 	    int i;
 	    int n=sc.nextInt();
-	   for(i=0;i<=n;i++){
+	   for(i=0;i<n;i++){
 	       System.out.print(ch[i]);
 }
 }
